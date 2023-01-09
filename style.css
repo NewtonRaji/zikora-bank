@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #f5fafa;
+}
+nav{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo img{
+    width: 100px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+}
+nav ul .drop-down img{
+    width: 15px;
+}
+nav ul li{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+hr{
+    width: 80%;
+    margin: 3px auto;
+}
+
+.nav-signup a{
+    padding: 10px;
+    text-align: center;
+    background: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    border-radius: 10px;
+}
+section.content{
+    width: 100%;
+    max-width: 80%;
+    margin: 100px auto;
+}
+.content .row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-basis: 40%;
+}
+.right-content img{
+    width: 100%;
+}
+.left-content h1{
+    margin-top: 20px;
+    font-size: 50px;
+    color: #534b4b;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+.left-content p{
+    margin-top: 50px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 20px;
+}
+button{
+    width: 200px;
+    margin-top: 30px;
+    padding: 20px 10px;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(68, 151, 112);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+section.card{
+    width: 100%;
+    max-width: 80%;
+    margin: 50px auto;
+}
+.card-name{
+    text-align: center;
+}
+.card-name p{
+    font-size: 14px;
+}
+.card-name h2{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #2c2b2b;
+}
+.card-row{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    
+}
+.card .left-col{
+    background: rgba(47, 175, 126, 0.514);
+    padding: 50px 0 65px 50px;
+    flex-basis: 50%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.card .left-col h3{
+    font-size: 30px;
+    color: #2c2b2b;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.card .left-col p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.card-row button{
+    background: #534b4b;
+    margin-top: 80px;
+}
+.right-col{
+    background: #2c2b2b;
+    flex-basis: 50%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.right-col img{
+    width: 100%;
+}
+.loan{
+    width: 100%;
+    max-width: 80%;
+    margin:100px auto;
+}
+.loan .row{
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.loan .left-content img{
+    width: 100%;
+    border-radius: 20px;
+}
+.loan .left-content{
+    flex-basis: 50%;
+}
+.loan .right-content{
+    padding: 10px;
+    flex-basis: 40%;
+}
+.loan .right-content h1{
+    color: #2c2b2b;
+    margin-top: 20px;
+}
+.loan .right-content p{
+    font-size: 14px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.loan button{
+    color: rgba(25, 112, 79, 0.514);
+    background: transparent;
+    border: 1px solid rgba(47, 175, 126, 0.514);
+}
+.customer .row{
+    display: flex;
+    flex-basis: 45%;
+    align-items: center;
+    justify-content: space-between;
+}
+.customer{
+    width: 100%;
+    max-width: 80%;
+    margin: 100px auto
+}
+.customer .left-content h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+.customer button{
+    color: rgba(25, 112, 79, 0.514);
+    background: transparent;
+    border: 1px solid rgba(47, 175, 126, 0.514);
+}
