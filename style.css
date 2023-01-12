@@ -199,3 +199,221 @@ section.card{
     background: transparent;
     border: 1px solid rgba(47, 175, 126, 0.514);
 }
+.channels{
+    width: 100%;
+    max-width: 80%;
+    margin: 100px auto;
+}
+.channels .row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  
+}
+.channels .right-row img{
+    width: 100%;
+}
+.channels .right-row{
+    flex-basis: 50%;
+}
+.channels .left-row{
+    flex-basis: 50%;
+    background: rgba(47, 175, 126, 0.514);
+    padding: 30px;
+}
+.channels .left-row h1{
+    margin-top: 30px;
+    color: #2c2b2b;
+}
+.channels .left-row p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+.channels button{
+    margin-top: 60px;
+    margin-bottom: 98px;
+    
+}
+.account{
+    width: 100%;
+    max-width: 80%;
+    margin: 100px auto;
+}
+.account .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 40%;
+}
+.account .left-content img{
+    width: 100%;
+}
+.account .left-content{
+    flex-basis: 45%;
+}
+.account .right-content{
+    flex-basis: 45%;
+    padding-left: 20px;
+}
+.account .right-content h1{
+    color: #2c2b2b;
+}
+.account .right-content p{
+    color: #2c2b2b;
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 20px;
+    margin-top: 50px;
+}
+.account .right-content button{
+    background: transparent;
+    border: 1px solid rgba(47, 175, 126, 0.514);
+    color: rgba(15, 94, 63, 0.514);
+}
+.apps .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d1cece;
+    padding: 40px;
+    border-radius: 20px;
+}
+.apps{
+    width: 100%;
+    max-width: 80%;
+    margin: 100px auto;
+}
+.apps .right-content{
+    flex-basis: 35%;
+}
+.apps .right-content img{
+    width: 100%;
+}
+.apps .left-content{
+    flex-basis: 45%;
+}
+.apps .left-content h1{
+    font-size: 23px;
+}
+.apps .left-content p{
+    margin-top: 10px;
+}
+.apps button img{
+    width: 20px;
+    filter: invert(1);
+    margin-right: 10px;
+}
+.apps button{
+    margin-right: 10px;
+    padding: 10px;
+}
+.apps button.black{
+    background: #2c2b2b;
+}
+.apps button.white{
+    background: #fff;
+    color: #2c2b2b;
+}
+.apps button.white img{
+    background: #e5ff00;
+    padding: 2px;
+}
+.input{
+    width: 100%;
+    max-width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+.input-box{
+    width: 500px;
+    background: #fff;
+    box-shadow: 1px 2px 5px rgb(53, 61, 57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.input-box input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.input-box button{
+    width: 100px;
+    padding: 10px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.quick-links{
+    width: 100%;
+    max-width: 80%;
+    margin: 100px auto 50px;
+}
+.quick-links .row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-basis: 20%;
+}
+.zakora-col img{
+    width: 100px;
+}
+.zakora-col p{
+    color: #534b4b;
+    font-size: 14px;
+    line-height: 40px;
+}
+.zakora-col .zikora-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.zakora-col .zikora-logo img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 2px;
+    filter: invert(1);
+    border-radius: 50%;
+}
+.zikora-logo .blue{
+    background: rgb(187, 255, 0);
+}
+.zikora-logo .red{
+    background: rgb(0, 217, 255);
+}
+.zikora-logo .green{
+    background: rgb(128, 0, 70);
+}
+.zikora-logo .brown{
+    background: rgb(42, 165, 165);
+}
+.quick-links h3{
+    color: #534b4b;
+    margin-bottom: 20px;
+}
+.quick-links p{
+    color: #534b4b;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.quick-links hr{
+    width: 100%;
+    margin-top: 40px;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    color: #534b4b;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
