@@ -133,7 +133,7 @@ section.card{
 }
 .card-row button{
     background: #534b4b;
-    margin-top: 80px;
+    margin-top: 10px;
 }
 .right-col{
     background: #2c2b2b;
@@ -210,6 +210,8 @@ section.card{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    background: rgba(47, 175, 126, 0.514);
+    border-radius:20px ;
   
 }
 .channels .right-row img{
@@ -222,6 +224,7 @@ section.card{
     flex-basis: 50%;
     background: rgba(47, 175, 126, 0.514);
     padding: 30px;
+    border-radius:20px ;
 }
 .channels .left-row h1{
     margin-top: 30px;
@@ -235,7 +238,7 @@ section.card{
     margin-top: 30px;
 }
 .channels button{
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 98px;
     
 }
@@ -355,7 +358,7 @@ section.card{
 .quick-links{
     width: 100%;
     max-width: 80%;
-    margin: 100px auto 50px;
+    margin: 100px auto 20px;
 }
 .quick-links .row{
     display: flex;
@@ -420,453 +423,235 @@ section.card{
     margin-bottom: 20px;
 }
 
-@media screen and (max-width:970px){
+
+@media screen and (max-width: 800px){
     nav{
-        padding:px;
+        flex-direction: column;
     }
-    .nav-logo img{
-        width: 80px;
+    nav ul{
+        width: 100%;
+    }
+    .nav-signup{
+        margin: 30px auto 10px;
+    }
+    .content .row{
+        align-items: center;
     }
     .left-content h1{
-        margin-top: 20px;
-        font-size: 40px;
-        color: #534b4b;
-        letter-spacing: 1px;
-        line-height: 50px;
-    }
-    .left-content button{
-        padding: 10px;
-    }
-    .left-content p{
-        margin-top: 20px;
-    }
-    .card-row button{
-        background: #534b4b;
-        margin-top: 30px;
-    }
-    .card-row .left-col h3{
-        font-size: 25px;
-    }
-    .card-row .left-col p{
-        margin-top: 10px;
-    }
-    .card-row .left-col{
-        padding: 10px;
-    }
-    .channels .left-row{
-        padding: 10px;
-    }
-    .channels button{
-        margin-bottom: 0;
-        margin-top: 25px;
-    }
-    .channels p{
-        margin-top: 10px;
-    }
-    .zakora-col img{
-        width: 80px;
-    }
-    .zakora-col p{
-        font-size: 14px;
+        font-size: 30px;
         line-height: 40px;
     }
-    .quick-links .row{
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        flex-basis: 20%;
+    .left-content p {
+        margin-top: 20px;
+        word-spacing: 4px;
+        line-height: 20px;
     }
-    .quick-links p{
-        font-size: 13px;
+    button {
+        width: 150px;
+        margin-top: 10px;
+        padding: 10px 5px;
     }
-    .zakora-col .zikora-logo img{
-        width: 20px;
-    }
-    .apps button{
-        padding: 10px 0;
-    }
-    .apps .left-content h1{
+    .card-name h2 {
         font-size: 20px;
     }
-    .apps .left-content p{
-        margin-top: 5px;
+    .card .left-col {
+        padding: 30px 0 40px 10px;
+        flex-basis: 50%;
+        height: 50%;
     }
-    .apps .right-content{
-        flex-basis: 30%;
+    .card .left-col h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .card .left-col p {
+        margin-top: 10px;
+    }
+    .card-row button {
+        background: #534b4b;
+        margin-top: 10px;
+        width: 200px;
+    }
+    .loan .row{
+        align-items: center;
+    }
+    .loan .right-content p {
+        margin-top: 10px;
+        line-height: 20px;
+    }
+    .loan button {
+        color: rgba(25, 112, 79, 0.514);
+        background: transparent;
+        border: 1px solid rgba(47, 175, 126, 0.514);
+    }
+    .customer .left-content h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .left-content p {
+        margin-top: 10px;
+        word-spacing: 3px;
+    }
+    .channels .left-row p {
+        word-spacing: 4px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .channels button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .channels .left-row {
+        padding: 30px 30px 0px 30px;
+    }
+    .account .right-content p {
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .apps .left-content h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .apps button {
+        padding: 5px;
+    }
+    .input-box {
+        width: 400px;
+        box-shadow: 2px 2px 10px rgb(53 61 57);
+        padding: 5px 20px;
+        border-radius: 10px;
+    }
+    .input-box button {
+        padding: 5px;
+    }
+    .quick-links .row {
+        flex-wrap: wrap;
+    }
+    .quick-links .zak{
+        width: 30%;
+        margin: 20px 5%;
+        
+    }
+    .quick-links hr {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footer p{
+        font-style: italic;
     }
 }
-
-@media screen and (max-width:800px){
-    .nav-logo img{
-        width: 50px;
-    }
+@media screen and (max-width: 500px){
     nav{
-        display: flex;
-        flex-direction: column;
-        max-width: 80%;
-        margin: 100px auto;
+        max-width: 100%;
     }
     nav ul li{
-        display: block;
-        font-size: 14px;
-        margin-top: 10px;
-        margin-right: 10px;
-        cursor: pointer;
-    }
-    .nav-signup {
-        margin-top: 20px;
-    }
-    .content{
-        max-width: 100%;
-        padding: 0 20px;
+        margin: 2px;
+        padding: 0;
     }
     .content .row{
         align-items: center;
         flex-direction: column;
     }
-    .right-content img{
-        width: 80%;
-        margin-top: 50px;
+    .content  .left-content{
+        margin-bottom: 20px;
     }
     .left-content h1{
-        margin-top: 5px;
-        font-size: 30px;
-        color: #534b4b;
-        letter-spacing: 1px;
-        line-height: 40px;
+        font-size: 20px;
+        line-height: 30px;
     }
-    .left-content p{
-        margin-top: 50px;
-        font-size: 14px;
-        letter-spacing: 1px;
-        word-spacing: 5px;
-        line-height: 20px;
+    .left-content p {
+        margin-top: 10px;
     }
-    button{
-        width: 200px;
-        margin-top: 30px;
-        padding: 15px 10px;
+    .card-row{
+        flex-direction: column;
+    }
+    .card .right-col {
+        border-radius: 0px 0px 20px 20px;
+    }
+    .card .left-col h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .card-row button {
+        background: #534b4b;
+        margin-top: 10px;
+        width: 50%;
+        font-size: 12px;
+    }
+    .loan .row{
+        align-items: center;
+        flex-direction: column;
+    }
+    .loan .right-content h1{
+        font-size: 20px;
+    }
+    .customer .row{
+        flex-direction: column;
+    }
+    .customer .left-content h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .customer .left-content{
+        margin-bottom: 30px;
+    }
+    .channels .row{
+        flex-direction: column;
+    }
+    .channels .right-row{
+        border-radius: 20px 20px 0px 0px;
+    }
+    .channels .left-row{
+        border-radius: 0px 0px 20px 20px;
+    }
+    .account .row{
+        flex-direction: column;
+    }
+    .account .right-content{
+        margin-top: 20px;
+    }
+    .account .right-content h1{
+        font-size: 20px;
+    }
+    .apps .row{
+        flex-direction: column;
+    }
+    .apps .left-content h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .apps .left-content{
+        margin-bottom: 20px;
+    }
+    .apps button {
+        padding: 5px;
+        width: 50%;
+    }
+    .input-box {
+        width: 300;
+        box-shadow: 2px 2px 10px rgb(53 61 57);
+        padding: 5px 15px;
+
+    }
+    .input{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .input-box button {
+        padding: 5px;
     }
     
-section.card{
-    max-width: 100%;
-    padding: 0 20px;
-    margin: 100px auto;
-}
-.card-name{
-    text-align: center;
-}
-.card-name p{
-    font-size: 14px;
-}
-.card-name h2{
-    font-size: 20px;
-    margin-top: 10px;
-    color: #2c2b2b;
-}
-.card-row{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.card .left-col{
-    
-    padding: 50px 0 65px 50px;
-    flex-basis: 50%;
-    height: 100%;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-.card .left-col h3{
-    font-size: 25px;
-    color: #2c2b2b;
-    letter-spacing: 1px;
-    line-height: 30px;
-}
-.card .left-col p{
-    font-size: 14px;
-    letter-spacing: 1px;
-    margin-top: 10px;
-}
-.card-row button{
-    background: #534b4b;
-    margin-top: 40px;
-}
-.right-col{
-    background: #2c2b2b;
-    flex-basis: 50%;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-.right-col img{
-    width: 100%;
-}
-
-.loan{
-    max-width: 100%;
-    padding: 0 20px;
-    margin: 100px auto;
-}
-.loan .row{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-.loan .left-content img{
-    width: 80%;
-}
-.loan .right-content h1{
-    color: #2c2b2b;
-    margin-top: 15px;
-}
-.loan .right-content p{
-    font-size: 14px;
-    margin-top: 20px;
-    letter-spacing: 1px;
-    line-height: 30px;
-}
-.loan button{
-    color: rgba(25, 112, 79, 0.514);
-    background: transparent;
-    border: 1px solid rgba(47, 175, 126, 0.514);
-    padding: 10px;
-}
-.customer{
-    max-width: 100%;
-    padding: 0 20px;
-    margin: 100px auto;
-}
-.customer .row{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.customer .left-content h1{
-    font-size: 20px;
-    line-height: 30px;
-}
-.customer .left-content p{
-    margin-top: 15px;
-}
-.customer button{
-   padding: 8px;
-}
-.channels{
-    max-width: 100%;
-    margin: 100px auto;
-    padding: 20px;
-}
-.channels .row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  
-}
-.channels .right-row img{
-    width: 100%;
-}
-.channels .right-row{
-    flex-basis: 50%;
-}
-.channels .left-row{
-    width: 100%;
-    flex-basis: 50%;
-    background: rgba(47, 175, 126, 0.514);
-    padding: 30px;
-}
-.channels .left-row h1{
-    margin-top: 20px;
-    color: #2c2b2b;
-}
-.channels .left-row p{
-    font-size: 14px;
-    letter-spacing: 1px;
-    word-spacing: 10px;
-    line-height: 20px;
-    margin-top: 20px;
-}
-.channels button{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    
-}
-
-.account{
-    max-width: 100%;
-    margin: 100px auto;
-    padding: 0 20px;
-}
-.account .row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.account .left-content img{
-    width: 80%;
-}
-.account .right-content h1{
-    color: #2c2b2b;
-    margin-top: 30px;
-}
-.account .right-content p{
-    margin-top: 20px;
-}
-.account .right-content button{
-    padding: 10px;
-}
-.apps .row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #d1cece;
-    padding: 40px;
-    border-radius: 20px;
-}
-.apps{
-    max-width: 100%;
-    margin: 100px auto;
-    padding: 20px;
-}
-.apps .row{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.apps .right-content{
-    flex-basis: 35%;
-}
-.apps .right-content img{
-    width: 80%;
-}
-.apps .left-content{
-    flex-basis: 45%;
-}
-.apps .left-content h1{
-    font-size: 23px;
-}
-.apps .left-content p{
-    margin-top: 10px;
-}
-.apps button img{
-    width: 15px;
-    filter: invert(1);
-    margin-right: 10px;
-}
-.apps button{
-    margin-bottom: -15px;
-    display: flex;
-    padding: 8px;
-}
-.apps button.black{
-    background: #2c2b2b;
-}
-.apps button.white{
-    background: #fff;
-    color: #2c2b2b;
-}
-.apps button.white img{
-    background: #e5ff00;
-    padding: 2px;
-}
-
-.input{
-    width: 100%;
-    max-width: 50%;
-    margin: 50px auto;
-    text-align: center;
-}
-.input-box{
-    width: 400px;
-    padding: 5px 15px;
-    border-radius: 10px;
-}
-.input-box input{
-    flex: 1;
-    border: none;
-    outline: none;
-    font-size: 14px;
-}
-.input-box button{
-    width: 80px;
-    padding: 8px;
-
-}
-
-.quick-links{
-    max-width: 100%;
-    margin: 100px auto 50px;
-    padding: 0 20px;
-}
-.quick-links .row{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-basis: 20%;
-}
-.quick-links .zak{
-    margin-top: 30px;
-}
-.zakora-col img{
-    width: 100px;
-}
-.zakora-col p{
-    color: #534b4b;
-    font-size: 14px;
-    line-height: 40px;
-}
-.zakora-col .zikora-logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-.zakora-col .zikora-logo img{
-    width: 25px;
-    margin-right: 20px;
-    cursor: pointer;
-    padding: 2px;
-    filter: invert(1);
-    border-radius: 50%;
-}
-.zikora-logo .blue{
-    background: rgb(187, 255, 0);
-}
-.zikora-logo .red{
-    background: rgb(0, 217, 255);
-}
-.zikora-logo .green{
-    background: rgb(128, 0, 70);
-}
-.zikora-logo .brown{
-    background: rgb(42, 165, 165);
-}
-.quick-links h3{
-    color: #534b4b;
-    margin-bottom: 20px;
-}
-.quick-links p{
-    color: #534b4b;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 1px;
-}
-.quick-links hr{
-    width: 100%;
-    margin-top: 40px;
-}
-.footer{
-    width: 100%;
-    text-align: center;
-    color: #534b4b;
-    font-size: 14px;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-}
-
+    .quick-links .zak{
+        width: 70%;
+        margin: 20px auto;
+        
+    }
+    .quick-links hr {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footer p{
+        font-style: italic;
+    }
 }
